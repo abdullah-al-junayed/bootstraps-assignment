@@ -3,4 +3,122 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+  
+} 
+
+#hero1{
+    margin-top:-50px;
+    
+}
+
+
+#img1{
+    z-index: 3;
+    position: relative;
+    margin-top: -5px;
+    margin-left: 5px;
+    width: 454px;
+    height: 454px;
+    opacity:0.9 ;
+}
+.h1{
+    
+    margin-top:-30px;
+    margin-left: 25px;
+    font-weight: bold;
+    width: 773px;
+    height: 312px;
+    font-size: 94px;
+    line-height: 92px;
+    z-index: 1;
+    
+}
+
+span{
+    color: #8A47F6;
+}
+#img2{
+
+    z-index: 3;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: -460px;
+    width: 454px;
+    height: 454px;
+    opacity:0.9 ;
+
+}
+#divfordesign{
+    width: 241.18px;
+height: 25px;
+margin-left: 170px;
+gap: 0px;
+border-radius: 70px;
+background-color: #8A47F6;
+display: inline-block;
+
+}
+#p1{
+    width: 647.77px;
+    height: 16px;
+    font-size: 19px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    word-spacing: 5px;
+    margin-top: -30px;
+    
+}
+
+
+@media (max-width:800px){
+    .h1{
+    
+        margin-top:-250px;
+        margin-left: 15px;
+        font-weight: bold;
+        width: 300px;
+        height: 312px;
+        font-size: 47px;
+        line-height: 72px;
+        
+    }
+    #divfordesign{
+    width: 200px;
+    height: 15px;
+    margin-left: 130px;
+    margin-top: -45px;
+    display: block;
+    border-radius: 70px;
+    background-color: #8A47F6;
+    
+    
+    }
+
+    #p1{
+        width: 280.77px;
+        height: 16px;
+        font-size: 15px;
+        font-weight: 100;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 20px;
+        word-spacing: 5px;
+        margin-top: -100px;
+        
+    }
+    #herobutton{
+        width: 200px;
+        height: 30px;
+        padding: 1px;
+        margin-top: 6px;
+        display: inline-block;
+    }
+}
+
+.col-lg-6{
+    width: 800px;
+    height: 800px;
+    margin-top: 15px;
+    margin-right: 65px;
+    
 }

@@ -15,11 +15,11 @@
   </head>
   <body>
     <!--Navbar-->
-  
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-transparent ">
       <div class="container-fluid ms-md-5">
-        <img src="Images/logoKiekeFotografie-e1460817748238 1.png" alt="" />
+        <img src="Images/logoKiekeFotografie-e1460817748238 1.png" alt="" /
+        class="bg-transparent">
         <button
           class="navbar-toggler"
           type="button"
@@ -32,7 +32,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0 gap-5">
+          <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0 gap-5 gap-md-3">
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#">Home</a>
             </li>
@@ -48,7 +48,6 @@
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#">Contact Us</a>
             </li>
-            
           </ul>
           <form class="d-flex" role="search">
             <button
@@ -62,6 +61,87 @@
         </div>
       </div>
     </nav>
+
+    <!-- hero section -->
+
+    <div class="row" id="hero1">
+      <div class="col-6">
+        <div id="hero1div">
+          <img src="Images/effect 1.png" alt="" id="img1" />
+          <img src="Images/effect 2.png" alt="" id="img2" />
+          <h1 class="h1">
+            CAPTURING MOMENTS <span>IN</span><br />
+            TIME
+            <div id="divfordesign"></div>
+          </h1>
+          <p id="p1">A Glimpse into the Past, a Snapshot of the Present.</p>
+          <br />
+          <button
+            class="btn rounded-pill ps-5 pe-5 text-white me-md-5 ms-4"
+            style="background-color: #fe8c45"
+            type="submit"
+            id="herobutton"
+          >
+            Get Started
+          </button>
+        </div>
+      </div>
+      <div class="col-lg-6 container container-fluid ">
+        <div id="carouselExampleIndicators" class="carousel slide mt-5 "  >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner rounded-3">
+            <div class="carousel-item active">
+              <img src="Images/r.png" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="Images/Untitled design.png" class="d-block w-100 h-75" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="Images/r.png" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
