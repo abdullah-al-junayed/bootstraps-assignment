@@ -175,14 +175,14 @@
                 <img
                   src="Images/Rectangle 6.png"
                   alt="Small Image 1"
-                  class="img-fluid"
+                  class="img-fluid" id="imgd"
                 />
               </div>
               <div class="half-height">
                 <img
                   src="Images/Rectangle 7.png"
                   alt="Small Image 2"
-                  class="img-fluid"
+                  class="img-fluid" id="img7"
                 />
               </div>
             </div>
@@ -221,11 +221,14 @@
     <p class="p1">Our <span>Portfolio</span></p>
 
     
-    
     <nav class="navbar navbar-expand-lg custom-navbar">
-      
-      <div class="collapse navbar-collapse" id="categoryNav">
-          <ul class="navbar-nav w-100 justify-content-around"> <!-- Center items -->
+      <a class="navbar-brand" href="#">Our Works</a> <!-- Changed text here -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#categoryNav" aria-controls="categoryNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse justify-content-end" id="categoryNav">
+          <ul class="navbar-nav w-100 justify-content-around"> <!-- Centered items -->
               <li class="nav-item">
                   <a class="nav-link" href="#">ALL</a>
               </li>
@@ -244,6 +247,10 @@
           </ul>
       </div>
   </nav>
+  
+  <!-- Image Grid with 90% Width -->
+
+
 
 <!-- Crads -->
  <p class="mt-5" id="price">Prices</p>
@@ -274,6 +281,7 @@
             <button class="btn custom-btn" type="submit" id="buttonaboutus">Get Purchase</button>
         </div>
     </div>
+   
 </section>
 <!-- Testimonials -->
 <div class="container-fluid" id="testimonials" style="width: 100%;">
@@ -297,7 +305,7 @@
                           <img src="Images/Rectangle 24.png" alt="" id="imgt" class="rounded-circle">
                           <p class="text-center mt-3 ms-4 p-1">Amane Indahnya</p>
                       </div>
-                      <div id="arrow" class="ms-4">
+                      <div id="arrow" class="ms-4 ms-md-1">
                           <img src="Images/circle-left-regular.svg" alt="Left Arrow" class="arrow-icon">
                           <img src="Images/circle-right-regular.svg" alt="Right Arrow" class="arrow-icon">
                       </div>
@@ -312,8 +320,42 @@
       </div>
   </div>
 </div>
->
 
+<!-- instagram feed -->
+<div class="container mt-5">
+  <div class="d-flex justify-content-between align-items-center mb-4">
+      <div class="feed-title">Instagram Feed</div>
+      <button class="join-button">Join Now</button>
+  </div>
+
+<!-- form section -->
+<div>
+  <div class="row" id="formdiv">
+    <div class="col-12 col-md-6" id="form1">
+      <h2>Have A Question?</h2>
+      <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <form action="#">
+        <label for="nm" class="form-label">Name</label>
+        <input type="text" class="form-control" id="nm">
+        <label for="em" class="form-label mt-1">E-mail</label>
+        <input type="text" class="form-control" id="em">
+        <label for="ta" class="form-label mt-1">Massage</label>
+        <textarea name="" id="ta" class="form-control"></textarea>
+      </form>
+    </div>
+    <div class="col-12 col-md-6" id="getit">
+      <!-- You can add form, image, or any other content here -->
+      <h2 class="mt-5">Get In Touch!</h2>
+      <p>We love to hear from you.Our friendly Team is always here to chat.</p>
+      <img src="Images/location_on_24dp_8C1AF6_FILL0_wght400_GRAD0_opsz24.svg" alt="" id="location"><p id="locap">Location <br>199 Nueces ST,Austin,TX 78701</p>
+      <div class="mt-5">
+        <img src="Images/phone_in_talk_24dp_8C1AF6_FILL0_wght400_GRAD0_opsz24.svg" alt="" id="location"><p id="locap">Phone: <br> +1(456)666-4077</p>
+      </div>
+     
+      <div class="mt-5"> <img src="Images/mail_24dp_8C1AF6_FILL0_wght400_GRAD0_opsz24.svg" alt="" id="location"><p id="locap">Email: <br>support@free.com</p></div>
+    </div>
+  </div>
+</div>
 
 
     <script
