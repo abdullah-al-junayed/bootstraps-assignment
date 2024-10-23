@@ -29,7 +29,7 @@
 }
 .h1{
     
-    margin-top:300px;
+    margin-top:200px;
     margin-left: 25px;
     font-weight: bold;
     width: 773px;
@@ -38,6 +38,9 @@
     line-height: 92px;
     z-index: 1;
     
+}
+.herobutton{
+    width: 30px;
 }
 
 span{
@@ -455,6 +458,15 @@ h5 img{
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
+#navbar-works{
+    display: none;
+}
+@media (min-width:955px){
+    #navbar-works{
+        display:block;
+    }
+} 
+/* problemmmmmmmm */
 
 
 #li2{
@@ -662,4 +674,63 @@ gap: 10px;
         width: 500px;
         margin-top: 20px;
     }
+}
+.footer1 {
+    background-color: #202020;
+    color: white;
+    padding: 20px;
+    width: 100vw;
+    position: relative;
+    left: 50%; 
+    right: 50%; 
+    margin-left: -50vw; 
+    margin-right: -50vw; 
+    overflow-x: hidden;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+
+
+.footer1 .footer-brand {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.footer-links a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #8e44ad;
+}
+
+.footer-icons a {
+    color: white;
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+
+.footer-icons a:hover {
+    color: #8e44ad;
+}
+.footerp{
+    display: inline;
+    font-size:25px ;
+    margin-top: 5px;
+    
+}
+.facebook{
+    width: 150px;
+    height: 50px;
+    
+}
+.fa{
+    margin-top: 15px;
 }
