@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -16,7 +18,7 @@
   <body>
     <!--Navbar-->
 
-    <nav class="navbar navbar-expand-lg bg-transparent ">
+    <nav class="navbar navbar-expand-lg bg-transparent">
       <div class="container-fluid ms-md-5">
         <img src="Images/logoKiekeFotografie-e1460817748238 1.png" alt="" /
         class="bg-transparent">
@@ -64,7 +66,7 @@
 
     <!-- hero section -->
 
-    <div class="row " id="hero1">
+    <div class="row" id="hero1">
       <div class="col-6">
         <div id="hero1div">
           <img src="Images/effect 1.png" alt="" id="img1" />
@@ -86,8 +88,8 @@
           </button>
         </div>
       </div>
-      <div class="col-lg-6  container container-fluid ">
-        <div id="carouselExampleIndicators" class="carousel slide mt-5 "  >
+      <div class="col-12 col-lg-6 container container-fluid" id="col-lg-6">
+        <div id="carouselExampleIndicators" class="carousel slide mt-5">
           <div class="carousel-indicators">
             <button
               type="button"
@@ -110,12 +112,16 @@
               aria-label="Slide 3"
             ></button>
           </div>
-          <div class="carousel-inner rounded-3">
+          <div class="carousel-inner rounded-5 container container-fluid">
             <div class="carousel-item active">
               <img src="Images/r.png" class="d-block w-100" alt="..." />
             </div>
             <div class="carousel-item">
-              <img src="Images/Untitled design.png" class="d-block w-100 h-75" alt="..." />
+              <img
+                src="Images/Untitled design.png"
+                class="d-block w-100 h-75"
+                alt="..."
+              />
             </div>
             <div class="carousel-item">
               <img src="Images/r.png" class="d-block w-100" alt="..." />
@@ -139,9 +145,54 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
+          <img src="Images/Group 24.png" alt="" class="mt-4" id="carouselslide">
         </div>
       </div>
+     
     </div>
+
+    <!-- About us -->
+   
+    <div class="row" id="aboutus1">
+      <!-- Image Grid (Left on large screens, Top on small screens) -->
+      <div class="col-12 col-md-6">
+          <div class="row" id="aboutusbox">
+              <!-- Large Image -->
+              <div class="col-6 col-md-6">
+                  <img src="Images/snapedit_1729662790477.jpeg" alt="Large Image" class="img-fluid full-height" id="full-height">
+              </div>
+              <!-- Two Smaller Images -->
+              <div class="col-6 col-md-6">
+                  <div class="img-container">
+                      <div class="half-height">
+                          <img src="Images/Rectangle 6.png" alt="Small Image 1" class="img-fluid">
+                      </div>
+                      <div class="half-height">
+                          <img src="Images/Rectangle 7.png" alt="Small Image 2" class="img-fluid">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  
+      <!-- Description Section (Right on large screens, Below on small screens) -->
+      <div class="col-12 col-md-6 description" id="description">
+       
+        <h5 id="desh5"><img src="Images/Line 1.png" alt="">About Us </h5>
+          <h1 id="aboutush1">
+            We Are Very <span>Skilled</span> In <span>Photography</span>
+          </h1>
+          <p id="desp1">Hi, I'm Angelique and photography is my passion! My father passed on the “photographer virus” to me. From analogue to digital. I have taken a number of courses and workshops and, above all, practiced a lot! My children are now used to modeling. Perhaps that is where the penchant for taking photos of children comes from. The pure appearance and enthusiasm of children. It's always fun! <br><br>
+            “Photography is the art of frozen time… the ability to store emotions and feelings within a frame.”</p>
+            <button
+              class="btn rounded-pill ps-5 pe-5 text-white me-md-5 ms-5 ms-xxl-5 ms-xl-5 ms-md-5  mt-5"
+              style="background-color: #fe8c45"
+              type="submit" id="buttonaboutus"
+            >
+See Our Portfolio            </button>
+      </div>
+  </div>
+  
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
