@@ -78,11 +78,7 @@ display: inline-block;
 @media (max-width: 991.98px) {
     .navbar-nav {
       text-align: center;
-      background-image: url(Images/effect\ 1.png),url(Images/effect\ 2.png),url(Images/effect\ 1.png);
-      background-repeat: no-repeat,repeat,no-repeat ;
-    background-position: left,right,right;
-    background-size: 50%,cover,30%;
-    font-weight: bold;
+      
     
     }
   
@@ -205,16 +201,14 @@ display: inline-block;
         margin-left: 13px;
         
     }
-    #carouselslide{
-        margin-left: 135px;
-    }
+    
 }
 
 #aboutus1 {
     background-color: #F3EDFE;
     padding: 20px;
     margin-top: 50px;
-    width: 102%;
+    width: 100%;
     overflow-x: hidden;
 }
 
@@ -252,13 +246,20 @@ display: inline-block;
         background-color: #F3EDFE;
         padding: 20px;
         margin-top: 50px;
-        width: 100.7%;
+        width: 100%;
         overflow-x: hidden;
     }
   
 }
 
     @media (min-width:800px){
+        #aboutus1 {
+            background-color: #F3EDFE;
+            padding: 20px;
+            margin-top: 50px;
+            width: 100%;
+            overflow-x: hidden;
+        }
         #full-height {
             border-radius: 25px; 
             height: 92%; 
