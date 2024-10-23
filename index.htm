@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -145,54 +148,140 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
-          
         </div>
       </div>
-     
     </div>
 
     <!-- About us -->
-   
+
     <div class="row" id="aboutus1">
       <!-- Image Grid (Left on large screens, Top on small screens) -->
       <div class="col-12 col-md-6">
-          <div class="row" id="aboutusbox">
-              <!-- Large Image -->
-              <div class="col-6 col-md-6">
-                  <img src="Images/snapedit_1729662790477.jpeg" alt="Large Image" class="img-fluid full-height" id="full-height">
-              </div>
-              <!-- Two Smaller Images -->
-              <div class="col-6 col-md-6">
-                  <div class="img-container">
-                      <div class="half-height">
-                          <img src="Images/Rectangle 6.png" alt="Small Image 1" class="img-fluid">
-                      </div>
-                      <div class="half-height">
-                          <img src="Images/Rectangle 7.png" alt="Small Image 2" class="img-fluid">
-                      </div>
-                  </div>
-              </div>
+        <div class="row" id="aboutusbox">
+          <!-- Large Image -->
+          <div class="col-6 col-md-6">
+            <img
+              src="Images/snapedit_1729662790477.jpeg"
+              alt="Large Image"
+              class="img-fluid full-height"
+              id="full-height"
+            />
           </div>
+          <!-- Two Smaller Images -->
+          <div class="col-6 col-md-6">
+            <div class="img-container">
+              <div class="half-height">
+                <img
+                  src="Images/Rectangle 6.png"
+                  alt="Small Image 1"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="half-height">
+                <img
+                  src="Images/Rectangle 7.png"
+                  alt="Small Image 2"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-  
+
       <!-- Description Section (Right on large screens, Below on small screens) -->
       <div class="col-12 col-md-6 description" id="description">
-       
-        <h5 id="desh5"><img src="Images/Line 1.png" alt="">About Us </h5>
-          <h1 id="aboutush1">
-            We Are Very <span>Skilled</span> In <span>Photography</span>
-          </h1>
-          <p id="desp1">Hi, I'm Angelique and photography is my passion! My father passed on the “photographer virus” to me. From analogue to digital. I have taken a number of courses and workshops and, above all, practiced a lot! My children are now used to modeling. Perhaps that is where the penchant for taking photos of children comes from. The pure appearance and enthusiasm of children. It's always fun! <br><br>
-            “Photography is the art of frozen time… the ability to store emotions and feelings within a frame.”</p>
-            <button
-              class="btn rounded-pill ps-5 pe-5 text-white me-md-5 ms-5 ms-xxl-5 ms-xl-5 ms-md-5  mt-5"
-              style="background-color: #fe8c45"
-              type="submit" id="buttonaboutus"
-            >
-See Our Portfolio            </button>
+        <h5 id="desh5"><img src="Images/Line 1.png" alt="" />About Us</h5>
+        <h1 id="aboutush1">
+          We Are Very <span>Skilled</span> In <span>Photography</span>
+        </h1>
+        <p id="desp1">
+          Hi, I'm Angelique and photography is my passion! My father passed on
+          the “photographer virus” to me. From analogue to digital. I have taken
+          a number of courses and workshops and, above all, practiced a lot! My
+          children are now used to modeling. Perhaps that is where the penchant
+          for taking photos of children comes from. The pure appearance and
+          enthusiasm of children. It's always fun! <br /><br />
+          “Photography is the art of frozen time… the ability to store emotions
+          and feelings within a frame.”
+        </p>
+        <button
+          class="btn rounded-pill ps-5 pe-5 text-white me-md-5 ms-5 ms-xxl-5 ms-xl-5 ms-md-5 mt-5"
+          style="background-color: #fe8c45"
+          type="submit"
+          id="buttonaboutus"
+        >
+          See Our Portfolio
+        </button>
       </div>
-  </div>
-  
+    </div>
+
+    <!-- grids -->
+    <p class="p1">Our <span>Portfolio</span></p>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light custom-navbar">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#categoryNav"
+        aria-controls="categoryNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="categoryNav">
+        <ul class="navbar-nav w-100 justify-content-around">
+          <li class="nav-item category-item">
+            <a class="nav-link" href="#">ALL</a>
+          </li>
+          <li class="nav-item category-item">
+            <a class="nav-link" href="#" id="li2">Childrens</a>
+          </li>
+          <li class="nav-item category-item">
+            <a class="nav-link" href="#">Portraits</a>
+          </li>
+          <li class="nav-item category-item">
+            <a class="nav-link" href="#">Family</a>
+          </li>
+          <li class="nav-item category-item">
+            <a class="nav-link" href="#">Other Photography</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+ 
+<!-- Crads -->
+ <p class="mt-5" id="price">Prices</p>
+ <section id="container">
+    <div class="card">
+        <div class="card-body">
+            <h3 class="card-title fw-bold">Children's Photography / Family / Pregnancy / Loveshoot</h3>
+            <p class="card-text">The price for this is <span style="color: rgb(0, 0, 0);">€50.00</span> (incl. VAT) and takes approximately one hour. For that, you get 10-15 edited digital files in large format.</p>
+            <h1>€50.00</h1>
+            <button class="btn custom-btn" type="submit" id="buttonaboutus">Get Purchase</button>
+        </div>
+    </div>
+    
+    <div class="card middle-card">
+        <div class="card-body">
+            <h3 class="card-title fw-bold">Lifestyle Photography</h3><br><br>
+            <p class="card-text">Lifestyle photography takes place at your home in a relaxed setting. The price for this depends on how long we take. Inquire about the possibilities.</p>
+            <h1 style="color: white;">€50.00</h1>
+            <button class="btn custom-btn" type="submit" id="buttonaboutus1">Get Purchase</button>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-body">
+            <h3 class="card-title fw-bold">Portrait Photography</h3><br><br><br>
+            <p class="card-text">Portrait photography and girlfriend shoots are also possible.</p>
+            <h1>€50.00</h1>
+            <button class="btn custom-btn" type="submit" id="buttonaboutus">Get Purchase</button>
+        </div>
+    </div>
+</section>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
