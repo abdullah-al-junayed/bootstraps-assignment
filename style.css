@@ -441,25 +441,49 @@ h5 img{
     /*protfolio  */
 }}
 
-.custom-navbar {
-    width: 90%; /* Set navbar width to 90% */
-    margin: auto; /* Center the navbar */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow to navbar */
-    padding: 10px 20px; /* Padding around navbar */
-    z-index: 1000; /* Ensure the navbar is on top */
-    background-color: white; 
-    overflow-x: hidden;
+.p1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.custom-header {
+    width: 90%;
+    margin: 40px auto;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    
 }
 
-.navbar-toggler {
-    z-index: 1001; 
+.custom-header h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #8A47F6;
+    margin-bottom: 20px;
 }
 
-.navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+.header-links {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
 }
-#navbar-works{
-    display: none;
+
+.header-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+    padding: 10px 15px;
+}
+
+.header-link:hover {
+    text-decoration: underline;
+}
+
+.header-link.active {
+    text-decoration: underline;
+    color: #8A47F6;
 }
 @media (min-width:955px){
     #navbar-works{
